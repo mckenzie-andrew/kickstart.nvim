@@ -1018,7 +1018,7 @@ do
   -- require 'kickstart.plugins.indent_line'
   -- require 'kickstart.plugins.lint'
   -- require 'kickstart.plugins.autopairs'
-  -- require 'kickstart.plugins.neo-tree'
+  require 'kickstart.plugins.neo-tree'
 
   -- NOTE: You can add your own plugins, configuration, etc. in `lua/custom/plugins/*.lua`.
   --
@@ -1030,7 +1030,7 @@ do
   -- file and put their `vim.pack.add()` and `setup()` calls in the required order.
   --
   -- If separate modules need a specific order, require them explicitly instead:
-  -- require 'custom.plugins.colorscheme'
+  require 'custom.plugins.colorscheme'
   -- require 'custom.plugins.ui'
   -- require 'custom.plugins.git'
 end
